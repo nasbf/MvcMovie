@@ -1,0 +1,12 @@
+# Archivos generados por .NET
+bin/
+obj/
+
+# Archivos temporales de SQLite
+*.db-shm
+*.db-wal
+
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
