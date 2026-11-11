@@ -51,7 +51,32 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
-                }
+                },
+                new Movie
+                {
+                    Title = "Harry Potter and the Sorcerer's Stone",
+                    ReleaseDate = DateTime.Parse("2001-11-16"),
+                    Genre = "Fantasy",
+                    Rating = "PG",
+                    Price = 10.99M
+                
+                },
+                new Movie
+                {
+                    Title = "Harry Potter and the Chamber of Secrets",
+                    ReleaseDate = DateTime.Parse("2002-11-15"), 
+                    Genre = "Fantasy",
+                    Rating = "PG",
+                    Price = 10.99M 
+                },          
+                new Movie
+                {
+                    Title = "Harry Potter and the Prisoner of Azkaban",
+                    ReleaseDate = DateTime.Parse("2004-6-4"), 
+                    Genre = "Fantasy",
+                    Rating = "PG",
+                    Price = 10.99M
+                }      
             );
             context.SaveChanges();
         }
